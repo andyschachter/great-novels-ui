@@ -1,6 +1,6 @@
 import React from 'react'
 
-const search = props => {
+const Search = props => {
 
   const novelSearch = (event) => {
     props.searchTerm(event.target.value)
@@ -15,4 +15,4 @@ const search = props => {
   )
 }
 
-export default search
+export default Search
