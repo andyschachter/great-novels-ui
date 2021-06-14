@@ -3,7 +3,7 @@ import React from 'react'
 const Search = props => {
 
   const novelSearch = (event) => {
-    props.searchTerm(event.target.value)
+    props.setSearchTerm(event.target.value)
   }
 
   return (
